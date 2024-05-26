@@ -1,0 +1,89 @@
+.possibility {
+  display: flex;
+}
+
+.possibility-img {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.possibility-img img {
+  padding: 1rem 1rem 7rem 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.possibility-content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 0 3rem;
+}
+
+.possibility-content h3 {
+  font-weight: 500;
+  line-height: 30px;
+  color: #71e5ff;
+}
+
+.possibility-content h1 {
+  margin: 1rem 0;
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+}
+
+.possibility-content p {
+  margin-bottom: 2rem;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-text);
+}
+
+.possibility-content p a {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--color-subtext);
+}
+
+@media screen and (max-width: 1050px) {
+  .possibility {
+    flex-direction: column;
+  }
+
+  .possibility-content {
+    margin: 0 0 3rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .possibility-img img {
+    padding: 1rem 1rem 5rem 1rem;
+  }
+
+  .possibility-content h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .possibility-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .possibility-content h1 {
+    font-size: 24px;
+    line-height: 18px;
+  }
+
+  .possibility-content p {
+    font-size: 14px;
+  }
+}

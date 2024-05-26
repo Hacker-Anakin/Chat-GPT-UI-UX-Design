@@ -1,0 +1,47 @@
+.article {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.article p,
+.article a { 
+  font-weight: bold;
+  line-height: 35px;
+  font-size: 16px;
+}
+
+.article h5 {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
+.article-img-container {
+  width: 100%;
+  height: 100%;
+}
+
+.article-img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.article-content {
+  justify-content: space-between;
+  height: 100%;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-blog);
+}
+
+@media screen and (max-width: 550px){
+.article h5 {
+  font-size: 16px;
+  line-height: 25px;
+}
+}

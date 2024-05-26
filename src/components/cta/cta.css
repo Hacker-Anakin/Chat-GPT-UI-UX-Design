@@ -1,0 +1,59 @@
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--gradient-bar);
+  border-radius: 10px;
+}
+
+.cta h1 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  font-family: var(--font-family);
+}
+
+.cta p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.cta button {
+  margin-top: 1rem;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  background: #000;
+  color: #fff;
+  width: 189.14px;
+  height: 59.4px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+  .cta {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cta h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .cta h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .cta p {
+    font-size: 14px;
+  }
+}
+
+
