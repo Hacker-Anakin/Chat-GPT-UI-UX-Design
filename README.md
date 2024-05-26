@@ -1,16 +1,16 @@
 # Chat-GBP - AI Generative Chatbot
-* Under Development *
+* Under Development 
 
 Welcome to the future of customer interaction with our state-of-the-art AI chatbot, powered by Python. Imagine a world where your website can instantly respond to your customers' needs, providing them with accurate and helpful information 24/7. With our AI chatbot, this is no longer a dream, but a reality!
 
 Our Python-based chatbot leverages cutting-edge machine learning algorithms and natural language processing to understand and engage with your customers in a way that feels truly human. It learns from every interaction, becoming smarter and more efficient over time, ensuring that your customers always receive the best possible support.
 
-We use:
-Flask
-TensorFlow
-BeautifulSoup
-NLTK
-... and a lot more
+## We use:
+* Flask
+* TensorFlow
+* BeautifulSoup
+* NLTK
+* ... and a lot more
 
 Using robust frameworks like TensorFlow and NLTK, our chatbot is trained on extensive datasets to handle a wide range of queries. And with seamless integration through Flask, deploying this advanced technology on your website is a breeze.
 
