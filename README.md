@@ -2,7 +2,7 @@
 
 Welcome to the **Chat-GPT** UI/UX design website repository. This project showcases the design and implementation of an intuitive and engaging user interface for a Chat-GPT application, built using React, HTML, and CSS.
 
-![alt text](https://imgur.com/a/sZkpYdS)
+![alt text](https://imgur.com/a/dD6k8Po)
 
 ## Table of Contents
 
